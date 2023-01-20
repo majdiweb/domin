@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: pink;
+}
+.container{
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+}
+.player1, .player2{
+   width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.play1, .play2{
+    display: flex;
+
+}
+#act1, #act2{
+    margin-left: 20px;
+}
+.posi{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.jouer{
+    position: absolute;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    left: 43.5%;
+    top: 200px;
+}
+.image{
+    align-self: center;
+    margin-bottom: 100px;
+}
+.image img{
+    width: 100px;
+    height: 100px;
+   
+}
+#rejouer img, #collecte img{
+    width: 30px;
+    height: 30px;
+    
+}
+.jouer a{
+    text-decoration: none;
+    color: black;
+    font: 1.2rem bold sans-serif;
+    display: flex;
+    margin-top: 20px;
+}
+#scor1, #scor2{
+    margin-top: 50px;
+    width: 90px;
+    height: 200px;
+    font-size: 4rem;
+    color: red;
+    text-align: center;
+    align-self: center;
+}
+#somme1, #somme2{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(231, 124, 124);
+    border: 1px solid black;
+    align-items: flex-end;
+    text-align: center;
+    padding-top: 15px;
+}
