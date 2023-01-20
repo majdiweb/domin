@@ -13,7 +13,7 @@ let scortot=0;
     document.querySelector('#act2').style.height = '0px'
     document.querySelector('#act2').style.borderRadius = '50%';
     document.querySelector('#act2').style.backgroundColor = 'red';
-
+//commentaire
 rej.addEventListener('click', function(){
     let des = Math.ceil(Math.random()*6);
     document.querySelector('.image').innerHTML=`<img src="img/${des}.jpg" alt = "">`;
